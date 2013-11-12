@@ -1,0 +1,9 @@
+{
+"id": "deploy",
+"groups": [
+"tomcat7"
+],
+"shell": "/bin/bash",
+"ssh_keys": [
+"ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAro1W7YrI/ibDDhPEVVUaNlln0wOKbiCwdAk/FlVFnB0f61lxgmsJYCP0rEZJEqUtJLSXzQE9j5AFgxAjg2pvOX2P/+DffDOND/odpc1tDdGcQEjDgfsj5lv+BxkJIKqlwW1nWp8s9S93A8rlKCUoRnGHAIBd5+IF5gSuicPlNVNeO1zY/dc2a6mbMGEYs+Z1VVhiqpC0J+6ZKYvplPaCil4+QEGtLGQtOnSIHDITfkvlexh33eIURnH7TNEUjNDIbwBhJHd0dVJgiV9js1EEGBzXP3FDUh11UngYPGUSI9lgPISflAm8FgBN2ZoOOZ18Ly3NzRxjrf+cpy2dXe2W8w== wclifford@yahoo.com\n"
+]}
