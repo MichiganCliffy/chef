@@ -88,6 +88,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "vim"
     chef.add_recipe "java"
     chef.add_recipe "openssl"
+    chef.add_recipe "sudo"
   #  chef.add_recipe "tomcat"
   end
 end
