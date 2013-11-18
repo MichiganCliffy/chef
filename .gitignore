@@ -50,3 +50,8 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
+# other?
+.vagrant
+cache
+client.log
