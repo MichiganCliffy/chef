@@ -77,18 +77,18 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with chef server, specifying the chef server URL,
   # and the path to the validation key (relative to this Vagrantfile).
   #
-  config.omnibus.chef_version = :latest
-  config.vm.provision :chef_client do |chef|
-    chef.chef_server_url = "https://api.opscode.com/organizations/cliffy"
+  # config.omnibus.chef_version = :latest
+  # config.vm.provision :chef_client do |chef|
+  #  chef.chef_server_url = "https://api.opscode.com/organizations/cliffy"
   #  chef.environment = "development"
-    chef.validation_client_name = "cliffy-validator"
-    chef.validation_key_path = ".chef/cliffy-validator.pem"
-    chef.add_recipe "apt"
-    chef.add_recipe "apache2"
-    chef.add_recipe "vim"
-    chef.add_recipe "java"
-    chef.add_recipe "openssl"
-    chef.add_recipe "sudo"
+  #  chef.validation_client_name = "cliffy-validator"
+  #  chef.validation_key_path = ".chef/cliffy-validator.pem"
+  #  chef.add_recipe "apt"
+  #  chef.add_recipe "apache2"
+  #  chef.add_recipe "vim"
+  #  chef.add_recipe "java"
+  #  chef.add_recipe "openssl"
+  #  chef.add_recipe "sudo"
   #  chef.add_recipe "tomcat"
-  end
+  # end
 end
