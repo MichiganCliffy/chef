@@ -1,0 +1,3 @@
+cookbook 'scala', :path => '/Users/kallan/src/scala'
+cookbook 'java', :locked_version => '1.5.2'
+cookbook 'ark', :locked_version => '0.0.11'
