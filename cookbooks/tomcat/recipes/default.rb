@@ -22,8 +22,6 @@
 
 include_recipe "java"
 
-node.override[:tomcat][:base_version] = 7
-
 tomcat_pkgs = value_for_platform(
   ["debian","ubuntu"] => {
     "default" => ["tomcat#{node["tomcat"]["base_version"]}","tomcat#{node["tomcat"]["base_version"]}-admin"]
