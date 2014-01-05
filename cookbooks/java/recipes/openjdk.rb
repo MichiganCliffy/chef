@@ -19,6 +19,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+node.override[:java][:openjdk_packages] = ["openjdk-7-jdk"]
+
 jdk = Opscode::OpenJDK.new(node)
 
 if platform_requires_license_acceptance?
